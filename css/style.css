@@ -1,0 +1,73 @@
+*{	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.background{
+	background-image: url(../image/b3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: all;
+	}
+
+.body_container{
+		margin-top: 0;
+		padding-top: 10%;
+		padding-left: 20%;
+}
+
+.text{
+	font-weight: 300px;
+	margin:1rem;
+}
+
+.text1{
+	font-size: 2.1rem;
+	color: #fff;
+	font-weight: 18.75rem;
+}
+
+.text h1{
+	font-size: 4.5rem;
+	color: #fff;
+	font-weight: 31rem;
+}
+
+.text p{
+	color: #fff;
+	font-weight: 23rem;
+}
+
+.text p a{
+	font-size: 1.3rem;
+	color: #fff;
+	font-weight: 90rem;
+
+}
+
+.form{
+	background: transparent;
+	color: #fff;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: 15rem;
+}
+
+input{
+	margin: 1.00rem;
+	padding: .80rem;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.name, .email, .password{
+border-bottom: .12rem solid #fff;
+}
