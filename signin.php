@@ -14,14 +14,14 @@
 				<h1>Log In</h1>
 			</div>
 			<div class="box">
-				<form class="form">
+				<form class="form" method="post">
 					<input class="email" type="email" name="email" placeholder="Email"><br>
 					<input class="password" type="password" name="password" placeholder="Password"><br>
 					<input type="submit" name="LogIn" value="LogIn">
 				</form>
 			</div>
 			<div class="text">
-				<p>No Account ?<a href="signup.html"> &nbsp &nbsp  Sign Up.</a></p>
+				<p>No Account ?<a href="signup.php"> &nbsp &nbsp  Sign Up.</a></p>
 			</div>	
 		</div>	
 	</div>

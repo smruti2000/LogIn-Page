@@ -14,7 +14,7 @@
 				<h1>Sign Up</h1>
 			</div>
 			<div class="box">
-				<form class="form">
+				<form class="form" method="post" action="./login.php">
 					<input class="name" type="text" name="name" placeholder="Name"><br>
 					<input class="email" type="email" name="email" placeholder="Email"><br>
 					<input class="password" type="password" name="password" placeholder="Password"><br>
@@ -22,7 +22,7 @@
 				</form>
 			</div>
 			<div class="text">
-				<p> Already have .<a href="signin.html"> &nbsp &nbsp  Sign In</a></p>
+				<p> Already have .<a href="signin.php"> &nbsp &nbsp  Sign In</a></p>
 			</div>	
 		</div>	
 	</div>
